@@ -30,6 +30,14 @@ if str(PROJECT_ROOT) not in sys.path:
 import streamlit as st
 import pandas as pd
 
+PROFILE_IMAGE = (
+    PROJECT_ROOT
+    / "src"
+    / "app"
+    / "assests"
+    / "Abasiuko.JPEG"
+)
+
 from src.serving.inference import predict
 from src.upstream.upstream_identity import customer_registry
 
@@ -44,7 +52,13 @@ st.set_page_config(
     layout="centered"
 )
 
+st.image(str(PROFILE_IMAGE), width=150)
 
+st.markdown("### Abasiuko Edet Offong")
+st.caption("AI & ML Engineer")
+st.caption("Loan Default Risk Predictor")
+
+st.divider()
 # ============================================================
 # APPLICATION TITLE
 # ============================================================
