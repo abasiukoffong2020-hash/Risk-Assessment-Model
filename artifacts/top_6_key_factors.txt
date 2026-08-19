@@ -1,0 +1,8 @@
+Top 6 Key Factors Influencing Loan Default
+
+1. loanamount
+2. days_overdue
+3. totaldue
+4. bank_account_type_Savings
+5. previous_default
+6. age

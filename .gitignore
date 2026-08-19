@@ -1,0 +1,57 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python test / coverage
+.pytest_cache/
+.coverage
+
+# Streamlit cache
+.streamlit/
+
+# Ignore MLflow local experiment history and artifacts folder
+mlruns/
+
+# Ignore local MLflow DB (if present)
+mlflow.db
+
+# Ignore large raw datasets (keep model/artifacts directories tracked)
+# Specific dataset filenames requested to be ignored:
+**/trainperf.csv
+**/trainprevloans.csv
+**/traindemographics.csv
+**/customer_prevcleaned.csv
+**/loan_processed.csv
+
+# Don't ignore models/ or artifacts/ (they are required for serving)
+
+# Ignore virtual env created by some IDEs
+.python-version
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Ignore pip wheelhouse
+wheelhouse/
+
+# Ignore macOS files
+.DS_Store

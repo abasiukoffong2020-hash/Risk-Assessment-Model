@@ -1,0 +1,11 @@
+current_loan_number
+loanamount
+totaldue
+termdays
+previous_default
+no_of_previous_loans
+days_overdue
+age
+bank_account_type_None
+bank_account_type_Other
+bank_account_type_Savings

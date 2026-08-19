@@ -1,0 +1,12 @@
+Confusion Matrix:
+
+[[181 503]
+ [ 20 170]]
+
+Rows = Actual
+Columns = Predicted
+
+                  Predicted
+                  No Default    Default
+Actual No Default  181          503
+Actual Default     20           170
